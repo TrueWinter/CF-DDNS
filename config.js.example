@@ -1,0 +1,13 @@
+/* eslint-disable */
+var config = {
+	"APIURL": "https://api.cloudflare.com/client/v4/", // API URL
+	"zone": "c51a--ZONE ID--675259", // Your ZONE ID
+	"APIKey": "70--API KEY--629a8fe", // API key
+	"email": "n--ACCOUNT EMAIL-.com", // Account email
+	"name": "ddns.website.com", // Domain to update
+	"ttl": 120, // TTL
+	"proxied": true, // Proxied or not (orange cloud: true, grey cloud: false)
+	"updateInterval": 900000 // The time (in ms) between sending an update request
+};
+
+module.exports = config;
